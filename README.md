@@ -7,14 +7,15 @@
 I built this dashboard to analyze how different advertising channels affect sales. The goal was to figure out which marketing channels give the best return on investment and how to allocate budget more effectively.
 
 ## Data Source
-This analysis uses advertising and sales data sourced from [Kaggle - Advertisement and Sales Data for Analysis](https://www.kaggle.com/datasets/ankitkr60/advertisement-and-sales-data-for-analysis), which includes:
-- TV advertising spend and performance metrics
-- Radio advertising expenditure and reach data  
-- Digital marketing spend across various online channels
-- Print advertising costs and circulation data
-- Corresponding sales figures across multiple time periods
+This analysis uses advertising and sales data sourced from [Kaggle - Advertisement and Sales Data for Analysis](https://www.kaggle.com/datasets/ankitkr60/advertisement-and-sales-data-for-analysis). The dataset contains the following columns:
 
-The dataset provides a comprehensive view of multi-channel marketing performance, making it ideal for marketing mix modeling and attribution analysis.
+- **ID**: Unique identifier for each record
+- **TV**: Advertising budget spent on TV (in thousands)
+- **Radio**: Advertising budget spent on Radio (in thousands) 
+- **Newspaper**: Advertising budget spent on Newspaper (in thousands)
+- **Sales**: Sales generated (in thousands)
+
+The dataset provides advertising spend across three traditional media channels alongside corresponding sales figures, making it ideal for marketing mix modeling and attribution analysis.
 
 ## The Analysis
 I looked at advertising spend across TV, radio, digital, and print channels to see their impact on sales. The model helps identify which channels are driving the most revenue and where we might be over or under-investing.
